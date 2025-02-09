@@ -21,7 +21,7 @@ npm -v
 Untuk menjalankan aplikasi, jalankan perintah berikut:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/suchronrizal/moovie-web.git
 cd moovie-web
 
 npm install
