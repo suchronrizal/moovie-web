@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1e232a;
+  --color-secondary: #292e35;
+  --color-third: #15191e;
+  --color-orange: #e74c3c;
+  --color-red: #ff0000;
+}
+
+.hr-custom {
+  @apply h-px my-3 bg-gray-200 border-0 dark:bg-gray-800;
+}
+.part-detail-custom {
+  @apply flex w-36 pl-6 flex-col border-r border-slate-600 pr-2;
+}
